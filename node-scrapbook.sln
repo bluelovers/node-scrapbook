@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "node-scrapbook", "jquery\jquery.njsproj", "{046F29CE-7137-4401-9970-BEF9121CC5D7}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "jquery", "jquery\jquery.njsproj", "{046F29CE-7137-4401-9970-BEF9121CC5D7}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "gw2", "gw2\gw2.njsproj", "{BDD0CC32-F300-4922-9A0C-9A25F5133386}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{046F29CE-7137-4401-9970-BEF9121CC5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{046F29CE-7137-4401-9970-BEF9121CC5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{046F29CE-7137-4401-9970-BEF9121CC5D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDD0CC32-F300-4922-9A0C-9A25F5133386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD0CC32-F300-4922-9A0C-9A25F5133386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD0CC32-F300-4922-9A0C-9A25F5133386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD0CC32-F300-4922-9A0C-9A25F5133386}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
