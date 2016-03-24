@@ -1,0 +1,13 @@
+{
+  "name": "es6",
+  "version": "0.0.0",
+  "description": "es6",
+  "main": "app.js",
+  "author": {
+    "name": "user",
+    "email": ""
+  },
+  "devDependencies": {
+    "should": "^8.3.0"
+  }
+}
