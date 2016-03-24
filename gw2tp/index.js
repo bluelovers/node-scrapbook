@@ -1,28 +1,24 @@
 // JavaScript source code
+var jsdom = require("jsdom");
 
-//var XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
-
-require("jsdom").env("", function (err, window) {
-	if (err) {
+jsdom.env("", function (err, window)
+{
+	if (err)
+	{
 		console.error(err);
 		return;
 	}
 
-	
+	var document = window.document;
 
-	global.window = window;
-	global.document = window.document;
+	jsdom.jQueryify(window, require.resolve("jquery"), function ()
+	{
+		global.window = window;
+		global.document = window.document;
 
-	global.jQuery = require("jquery");
+		global.jQuery = window.$;
+		global.jQuery.support.cors = true;
 
-	//cross domain
-	global.jQuery.support.cors = true;
-
-	//global.jQuery.ajaxSettings.xhr = function () {
-	//	return new XMLHttpRequest();
-	//};
-
-	//jQuery(window);
-
-	require("./app.js");
+		require("./app.js");
+	});
 });
