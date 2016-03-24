@@ -1,2 +1,4 @@
 .vs
 .ntvs_analysis.dat
+node_modules
+obj
