@@ -1,0 +1,10 @@
+{
+  "name": "gw2",
+  "version": "0.0.0",
+  "description": "gw2",
+  "main": "app.js",
+  "author": {
+    "name": "user",
+    "email": ""
+  }
+}
