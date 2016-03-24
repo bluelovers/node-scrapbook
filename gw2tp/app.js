@@ -1,7 +1,6 @@
 ﻿console.log('Hello world');
 
-module.exports = function (window, $) 
-{ 
+module.exports = function (window, $) {
 
 }
 
@@ -11,15 +10,18 @@ console.log(jQuery.fn.jquery);
 
 console.log($.fn.jquery);
 
-
-$("body").append('<div class="testing">Hello World, It works</div>');
-
+console.log(window.$.fn.jquery);
 
 
-console.log($(".testing").text());
+$('body').append('<div class="testing">Hello World, It works</div>');
 
 
-$.get("https://api.jquery.com/jQuery.get/", function (data) {
-    $(".testing").html(data);
-    console.log($(".testing").text());
+
+console.log($('.testing').text());
+
+
+$.get('https://api.jquery.com/jQuery.get/', function (data)
+{
+	$('.testing').html(data);
+	console.log($('.testing').text());
 });
